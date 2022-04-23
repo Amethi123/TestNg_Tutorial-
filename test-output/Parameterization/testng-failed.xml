@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameterization]" guice-stage="DEVELOPMENT">
+  <parameter name="Common URL" value="tcs.com"/>
+  <test thread-count="5" name="day3day4(failed)">
+    <parameter name="Speacific URl for day3 and day4" value="testing day3 and day4"/>
+    <classes>
+      <class name="Test.day3">
+        <methods>
+          <include name="ApiLoginCarLoan"/>
+          <include name="befoclass"/>
+          <include name="bfMethod"/>
+        </methods>
+      </class> <!-- Test.day3 -->
+    </classes>
+  </test> <!-- day3day4(failed) -->
+</suite> <!-- Failed suite [Parameterization] -->
