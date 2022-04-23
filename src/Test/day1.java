@@ -8,6 +8,7 @@ public class day1 {
 	public void Demo()
 	{
 		System.out.println("Hello");
+		System.out.println("Doing Changes in the code to check whether it updated in GIt hub or not");
 	}
 	@Parameters({"Common URL","Speacific URl for day1 and day2"})
 	@Test
